@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587848221CB25027009E67A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848211CB25027009E67A6 /* main.m */; };
+		587848251CB25027009E67A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848241CB25027009E67A6 /* AppDelegate.m */; };
+		587848281CB25027009E67A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848271CB25027009E67A6 /* ViewController.m */; };
+		5878482B1CB25027009E67A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587848291CB25027009E67A6 /* Main.storyboard */; };
+		5878482D1CB25028009E67A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5878482C1CB25028009E67A6 /* Assets.xcassets */; };
+		587848301CB25028009E67A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5878482E1CB25028009E67A6 /* LaunchScreen.storyboard */; };
+		587848391CB25876009E67A6 /* CustomStoryboardSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848381CB25876009E67A6 /* CustomStoryboardSegue.m */; };
+		587848481CB54C5F009E67A6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848461CB54C5F009E67A6 /* FirstViewController.m */; };
+		587848491CB54C5F009E67A6 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587848471CB54C5F009E67A6 /* FirstViewController.xib */; };
+		5878484D1CB54C7D009E67A6 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878484B1CB54C7D009E67A6 /* LastViewController.m */; };
+		5878484E1CB54C7D009E67A6 /* LastViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5878484C1CB54C7D009E67A6 /* LastViewController.xib */; };
+		587848511CB54D97009E67A6 /* SimplePresentedAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848501CB54D97009E67A6 /* SimplePresentedAnimator.m */; };
+		587848571CB558F8009E67A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848551CB558F8009E67A6 /* SecondViewController.m */; };
+		587848581CB558F8009E67A6 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587848561CB558F8009E67A6 /* SecondViewController.xib */; };
+		5878485C1CB5590C009E67A6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878485A1CB5590C009E67A6 /* ThirdViewController.m */; };
+		5878485D1CB5590C009E67A6 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5878485B1CB5590C009E67A6 /* ThirdViewController.xib */; };
+		587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */; };
+		587848631CB5602C009E67A6 /* InteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848621CB5602C009E67A6 /* InteractiveAnimator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5878481D1CB25027009E67A6 /* TransitionLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587848211CB25027009E67A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587848231CB25027009E67A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		587848241CB25027009E67A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		587848261CB25027009E67A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		587848271CB25027009E67A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5878482A1CB25027009E67A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5878482C1CB25028009E67A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5878482F1CB25028009E67A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		587848311CB25028009E67A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587848371CB25876009E67A6 /* CustomStoryboardSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomStoryboardSegue.h; sourceTree = "<group>"; };
+		587848381CB25876009E67A6 /* CustomStoryboardSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomStoryboardSegue.m; sourceTree = "<group>"; };
+		587848451CB54C5F009E67A6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		587848461CB54C5F009E67A6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		587848471CB54C5F009E67A6 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5878484A1CB54C7D009E67A6 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
+		5878484B1CB54C7D009E67A6 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
+		5878484C1CB54C7D009E67A6 /* LastViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastViewController.xib; sourceTree = "<group>"; };
+		5878484F1CB54D97009E67A6 /* SimplePresentedAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePresentedAnimator.h; sourceTree = "<group>"; };
+		587848501CB54D97009E67A6 /* SimplePresentedAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePresentedAnimator.m; sourceTree = "<group>"; };
+		587848541CB558F8009E67A6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		587848551CB558F8009E67A6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		587848561CB558F8009E67A6 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		587848591CB5590C009E67A6 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5878485A1CB5590C009E67A6 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5878485B1CB5590C009E67A6 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		5878485E1CB55A42009E67A6 /* SwipeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeInteractiveTransition.h; sourceTree = "<group>"; };
+		5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteractiveTransition.m; sourceTree = "<group>"; };
+		587848611CB5602C009E67A6 /* InteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimator.h; sourceTree = "<group>"; };
+		587848621CB5602C009E67A6 /* InteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5878481A1CB25027009E67A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587848141CB25027009E67A6 = {
+			isa = PBXGroup;
+			children = (
+				5878481F1CB25027009E67A6 /* TransitionLearning */,
+				5878481E1CB25027009E67A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5878481E1CB25027009E67A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5878481D1CB25027009E67A6 /* TransitionLearning.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5878481F1CB25027009E67A6 /* TransitionLearning */ = {
+			isa = PBXGroup;
+			children = (
+				587848531CB558D8009E67A6 /* swipe */,
+				587848441CB54C3C009E67A6 /* simplePresented */,
+				587848231CB25027009E67A6 /* AppDelegate.h */,
+				587848241CB25027009E67A6 /* AppDelegate.m */,
+				587848261CB25027009E67A6 /* ViewController.h */,
+				587848271CB25027009E67A6 /* ViewController.m */,
+				587848371CB25876009E67A6 /* CustomStoryboardSegue.h */,
+				587848381CB25876009E67A6 /* CustomStoryboardSegue.m */,
+				587848291CB25027009E67A6 /* Main.storyboard */,
+				5878482C1CB25028009E67A6 /* Assets.xcassets */,
+				5878482E1CB25028009E67A6 /* LaunchScreen.storyboard */,
+				587848311CB25028009E67A6 /* Info.plist */,
+				587848201CB25027009E67A6 /* Supporting Files */,
+			);
+			path = TransitionLearning;
+			sourceTree = "<group>";
+		};
+		587848201CB25027009E67A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587848211CB25027009E67A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587848441CB54C3C009E67A6 /* simplePresented */ = {
+			isa = PBXGroup;
+			children = (
+				587848451CB54C5F009E67A6 /* FirstViewController.h */,
+				587848461CB54C5F009E67A6 /* FirstViewController.m */,
+				587848471CB54C5F009E67A6 /* FirstViewController.xib */,
+				5878484A1CB54C7D009E67A6 /* LastViewController.h */,
+				5878484B1CB54C7D009E67A6 /* LastViewController.m */,
+				5878484C1CB54C7D009E67A6 /* LastViewController.xib */,
+				5878484F1CB54D97009E67A6 /* SimplePresentedAnimator.h */,
+				587848501CB54D97009E67A6 /* SimplePresentedAnimator.m */,
+			);
+			name = simplePresented;
+			sourceTree = "<group>";
+		};
+		587848531CB558D8009E67A6 /* swipe */ = {
+			isa = PBXGroup;
+			children = (
+				587848541CB558F8009E67A6 /* SecondViewController.h */,
+				587848551CB558F8009E67A6 /* SecondViewController.m */,
+				587848561CB558F8009E67A6 /* SecondViewController.xib */,
+				587848591CB5590C009E67A6 /* ThirdViewController.h */,
+				5878485A1CB5590C009E67A6 /* ThirdViewController.m */,
+				5878485B1CB5590C009E67A6 /* ThirdViewController.xib */,
+				5878485E1CB55A42009E67A6 /* SwipeInteractiveTransition.h */,
+				5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */,
+				587848611CB5602C009E67A6 /* InteractiveAnimator.h */,
+				587848621CB5602C009E67A6 /* InteractiveAnimator.m */,
+			);
+			name = swipe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5878481C1CB25027009E67A6 /* TransitionLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587848341CB25028009E67A6 /* Build configuration list for PBXNativeTarget "TransitionLearning" */;
+			buildPhases = (
+				587848191CB25027009E67A6 /* Sources */,
+				5878481A1CB25027009E67A6 /* Frameworks */,
+				5878481B1CB25027009E67A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransitionLearning;
+			productName = TransitionLearning;
+			productReference = 5878481D1CB25027009E67A6 /* TransitionLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587848151CB25027009E67A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = demoker;
+				TargetAttributes = {
+					5878481C1CB25027009E67A6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 587848181CB25027009E67A6 /* Build configuration list for PBXProject "TransitionLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 587848141CB25027009E67A6;
+			productRefGroup = 5878481E1CB25027009E67A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5878481C1CB25027009E67A6 /* TransitionLearning */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5878481B1CB25027009E67A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5878485D1CB5590C009E67A6 /* ThirdViewController.xib in Resources */,
+				587848301CB25028009E67A6 /* LaunchScreen.storyboard in Resources */,
+				5878482D1CB25028009E67A6 /* Assets.xcassets in Resources */,
+				587848581CB558F8009E67A6 /* SecondViewController.xib in Resources */,
+				5878484E1CB54C7D009E67A6 /* LastViewController.xib in Resources */,
+				5878482B1CB25027009E67A6 /* Main.storyboard in Resources */,
+				587848491CB54C5F009E67A6 /* FirstViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587848191CB25027009E67A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587848281CB25027009E67A6 /* ViewController.m in Sources */,
+				587848251CB25027009E67A6 /* AppDelegate.m in Sources */,
+				587848481CB54C5F009E67A6 /* FirstViewController.m in Sources */,
+				587848511CB54D97009E67A6 /* SimplePresentedAnimator.m in Sources */,
+				587848571CB558F8009E67A6 /* SecondViewController.m in Sources */,
+				5878485C1CB5590C009E67A6 /* ThirdViewController.m in Sources */,
+				587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */,
+				587848631CB5602C009E67A6 /* InteractiveAnimator.m in Sources */,
+				587848221CB25027009E67A6 /* main.m in Sources */,
+				5878484D1CB54C7D009E67A6 /* LastViewController.m in Sources */,
+				587848391CB25876009E67A6 /* CustomStoryboardSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		587848291CB25027009E67A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5878482A1CB25027009E67A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5878482E1CB25028009E67A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5878482F1CB25028009E67A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587848321CB25028009E67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		587848331CB25028009E67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587848351CB25028009E67A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoker.TransitionLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		587848361CB25028009E67A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TransitionLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoker.TransitionLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587848181CB25027009E67A6 /* Build configuration list for PBXProject "TransitionLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587848321CB25028009E67A6 /* Debug */,
+				587848331CB25028009E67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587848341CB25028009E67A6 /* Build configuration list for PBXNativeTarget "TransitionLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587848351CB25028009E67A6 /* Debug */,
+				587848361CB25028009E67A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587848151CB25027009E67A6 /* Project object */;
+}
