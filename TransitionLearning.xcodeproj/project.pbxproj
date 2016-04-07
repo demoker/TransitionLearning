@@ -25,6 +25,14 @@
 		5878485D1CB5590C009E67A6 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5878485B1CB5590C009E67A6 /* ThirdViewController.xib */; };
 		587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */; };
 		587848631CB5602C009E67A6 /* InteractiveAnimatorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848621CB5602C009E67A6 /* InteractiveAnimatorDelegate.m */; };
+		587848671CB6944E009E67A6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848651CB6944E009E67A6 /* FourViewController.m */; };
+		587848681CB6944E009E67A6 /* FourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587848661CB6944E009E67A6 /* FourViewController.xib */; };
+		5878486D1CB6946B009E67A6 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878486B1CB6946B009E67A6 /* FiveViewController.m */; };
+		5878486E1CB6946B009E67A6 /* FiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5878486C1CB6946B009E67A6 /* FiveViewController.xib */; };
+		587848711CB6951E009E67A6 /* DKNavcontrollerAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848701CB6951E009E67A6 /* DKNavcontrollerAnimator.m */; };
+		587848751CB6AD4A009E67A6 /* TabbarTransitionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848741CB6AD4A009E67A6 /* TabbarTransitionDelegate.m */; };
+		587848781CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848771CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.m */; };
+		5878487B1CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878487A1CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.m */; };
 		58C1274B1CB5FB8E001C99A5 /* SwipeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +67,20 @@
 		5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteractiveTransition.m; sourceTree = "<group>"; };
 		587848611CB5602C009E67A6 /* InteractiveAnimatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimatorDelegate.h; sourceTree = "<group>"; };
 		587848621CB5602C009E67A6 /* InteractiveAnimatorDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimatorDelegate.m; sourceTree = "<group>"; };
+		587848641CB6944E009E67A6 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		587848651CB6944E009E67A6 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		587848661CB6944E009E67A6 /* FourViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourViewController.xib; sourceTree = "<group>"; };
+		5878486A1CB6946B009E67A6 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		5878486B1CB6946B009E67A6 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		5878486C1CB6946B009E67A6 /* FiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FiveViewController.xib; sourceTree = "<group>"; };
+		5878486F1CB6951E009E67A6 /* DKNavcontrollerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNavcontrollerAnimator.h; sourceTree = "<group>"; };
+		587848701CB6951E009E67A6 /* DKNavcontrollerAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNavcontrollerAnimator.m; sourceTree = "<group>"; };
+		587848731CB6AD4A009E67A6 /* TabbarTransitionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabbarTransitionDelegate.h; sourceTree = "<group>"; };
+		587848741CB6AD4A009E67A6 /* TabbarTransitionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabbarTransitionDelegate.m; sourceTree = "<group>"; };
+		587848761CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSlideTransitionInteractionController.h; sourceTree = "<group>"; };
+		587848771CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSlideTransitionInteractionController.m; sourceTree = "<group>"; };
+		587848791CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLSlideTransitionAnimator.h; sourceTree = "<group>"; };
+		5878487A1CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLSlideTransitionAnimator.m; sourceTree = "<group>"; };
 		58C127491CB5FB8E001C99A5 /* SwipeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeAnimator.h; sourceTree = "<group>"; };
 		58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +115,8 @@
 		5878481F1CB25027009E67A6 /* TransitionLearning */ = {
 			isa = PBXGroup;
 			children = (
+				587848721CB6AD1D009E67A6 /* tabbar */,
+				587848691CB69453009E67A6 /* nav */,
 				587848531CB558D8009E67A6 /* swipe */,
 				587848441CB54C3C009E67A6 /* simplePresented */,
 				587848231CB25027009E67A6 /* AppDelegate.h */,
@@ -150,6 +174,34 @@
 				58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */,
 			);
 			name = swipe;
+			sourceTree = "<group>";
+		};
+		587848691CB69453009E67A6 /* nav */ = {
+			isa = PBXGroup;
+			children = (
+				587848641CB6944E009E67A6 /* FourViewController.h */,
+				587848651CB6944E009E67A6 /* FourViewController.m */,
+				587848661CB6944E009E67A6 /* FourViewController.xib */,
+				5878486A1CB6946B009E67A6 /* FiveViewController.h */,
+				5878486B1CB6946B009E67A6 /* FiveViewController.m */,
+				5878486C1CB6946B009E67A6 /* FiveViewController.xib */,
+				5878486F1CB6951E009E67A6 /* DKNavcontrollerAnimator.h */,
+				587848701CB6951E009E67A6 /* DKNavcontrollerAnimator.m */,
+			);
+			name = nav;
+			sourceTree = "<group>";
+		};
+		587848721CB6AD1D009E67A6 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				587848791CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.h */,
+				5878487A1CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.m */,
+				587848731CB6AD4A009E67A6 /* TabbarTransitionDelegate.h */,
+				587848741CB6AD4A009E67A6 /* TabbarTransitionDelegate.m */,
+				587848761CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.h */,
+				587848771CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.m */,
+			);
+			name = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,10 +263,12 @@
 			files = (
 				5878485D1CB5590C009E67A6 /* ThirdViewController.xib in Resources */,
 				587848301CB25028009E67A6 /* LaunchScreen.storyboard in Resources */,
+				587848681CB6944E009E67A6 /* FourViewController.xib in Resources */,
 				5878482D1CB25028009E67A6 /* Assets.xcassets in Resources */,
 				587848581CB558F8009E67A6 /* SecondViewController.xib in Resources */,
 				5878484E1CB54C7D009E67A6 /* LastViewController.xib in Resources */,
 				5878482B1CB25027009E67A6 /* Main.storyboard in Resources */,
+				5878486E1CB6946B009E67A6 /* FiveViewController.xib in Resources */,
 				587848491CB54C5F009E67A6 /* FirstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,10 +286,16 @@
 				587848511CB54D97009E67A6 /* SimplePresentedAnimator.m in Sources */,
 				587848571CB558F8009E67A6 /* SecondViewController.m in Sources */,
 				58C1274B1CB5FB8E001C99A5 /* SwipeAnimator.m in Sources */,
+				5878486D1CB6946B009E67A6 /* FiveViewController.m in Sources */,
+				587848751CB6AD4A009E67A6 /* TabbarTransitionDelegate.m in Sources */,
+				587848711CB6951E009E67A6 /* DKNavcontrollerAnimator.m in Sources */,
+				5878487B1CB6B5E5009E67A6 /* AAPLSlideTransitionAnimator.m in Sources */,
+				587848781CB6B320009E67A6 /* AAPLSlideTransitionInteractionController.m in Sources */,
 				5878485C1CB5590C009E67A6 /* ThirdViewController.m in Sources */,
 				587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */,
 				587848631CB5602C009E67A6 /* InteractiveAnimatorDelegate.m in Sources */,
 				587848221CB25027009E67A6 /* main.m in Sources */,
+				587848671CB6944E009E67A6 /* FourViewController.m in Sources */,
 				5878484D1CB54C7D009E67A6 /* LastViewController.m in Sources */,
 				587848391CB25876009E67A6 /* CustomStoryboardSegue.m in Sources */,
 			);

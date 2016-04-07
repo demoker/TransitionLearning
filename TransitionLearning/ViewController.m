@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "FourViewController.h"
+#import "TabbarTransitionDelegate.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *mtableView;
@@ -22,7 +24,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    _dataArray = @[@"simplePresented",@"swipe"];
+    _dataArray = @[@"simplePresented",@"swipe",@"nav",@"tabbar"];
     
 }
 
@@ -47,6 +49,26 @@
     }else if (indexPath.row == 1){
         SecondViewController * second = [[SecondViewController alloc]init];
         [self presentViewController:second animated:YES completion:nil];
+    }else if (indexPath.row == 2){
+        FourViewController * four = [[FourViewController alloc]init];
+        UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:four];
+        [self presentViewController:nav animated:YES completion:nil];
+    }else{
+        TabbarTransitionDelegate * delegate = [[TabbarTransitionDelegate alloc]init];
+        UITabBarController * tabbarVC = [[UITabBarController alloc]init];
+        
+        NSMutableArray * arr = [NSMutableArray array];
+        NSArray * colors = @[[UIColor redColor],[UIColor purpleColor],[UIColor orangeColor],[UIColor yellowColor]];
+        for(int i = 0;i<4;i++){
+            FirstViewController * first = [[FirstViewController alloc]init];
+            first.view.backgroundColor =colors[i];
+            first.title = [NSString stringWithFormat:@"vc%d",i];
+            [arr addObject:first];
+        }
+        tabbarVC.viewControllers = arr;
+        delegate.mtabbarController = tabbarVC;
+        [self presentViewController:tabbarVC animated:YES completion:nil];
+        
     }
     
 }
