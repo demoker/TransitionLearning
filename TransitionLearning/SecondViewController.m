@@ -7,11 +7,11 @@
 //
 
 #import "SecondViewController.h"
-#import "InteractiveAnimator.h"
+#import "InteractiveAnimatorDelegate.h"
 #import "ThirdViewController.h"
 
 @interface SecondViewController ()
-@property (strong, nonnull) InteractiveAnimator * delegate;
+@property (strong, nonatomic) InteractiveAnimatorDelegate * delegate;
 @end
 
 @implementation SecondViewController
@@ -25,15 +25,24 @@
     
 }
 
+- (InteractiveAnimatorDelegate *)delegate{
+    if(!_delegate){
+        _delegate = [[InteractiveAnimatorDelegate alloc]init];
+    }
+    return _delegate;
+}
+
 - (void)swipe:(UIScreenEdgePanGestureRecognizer *)gesture{
-    InteractiveAnimator * animator = self.delegate;
+    InteractiveAnimatorDelegate * animator = self.delegate;
     animator.gestureRecognizer = gesture;
     animator.targetEdge = UIRectEdgeRight;
     
-    ThirdViewController * third = [[ThirdViewController alloc]init];
-    third.transitioningDelegate = animator;
-    third.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self presentViewController:third animated:YES completion:nil];
+    if(gesture.state == UIGestureRecognizerStateBegan){
+        ThirdViewController * third = [[ThirdViewController alloc]init];
+        third.transitioningDelegate = animator;
+        third.modalPresentationStyle = UIModalPresentationFullScreen;
+        [self presentViewController:third animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

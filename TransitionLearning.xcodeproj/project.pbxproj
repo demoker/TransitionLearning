@@ -24,7 +24,8 @@
 		5878485C1CB5590C009E67A6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878485A1CB5590C009E67A6 /* ThirdViewController.m */; };
 		5878485D1CB5590C009E67A6 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5878485B1CB5590C009E67A6 /* ThirdViewController.xib */; };
 		587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */; };
-		587848631CB5602C009E67A6 /* InteractiveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848621CB5602C009E67A6 /* InteractiveAnimator.m */; };
+		587848631CB5602C009E67A6 /* InteractiveAnimatorDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587848621CB5602C009E67A6 /* InteractiveAnimatorDelegate.m */; };
+		58C1274B1CB5FB8E001C99A5 /* SwipeAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +57,10 @@
 		5878485B1CB5590C009E67A6 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		5878485E1CB55A42009E67A6 /* SwipeInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeInteractiveTransition.h; sourceTree = "<group>"; };
 		5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeInteractiveTransition.m; sourceTree = "<group>"; };
-		587848611CB5602C009E67A6 /* InteractiveAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimator.h; sourceTree = "<group>"; };
-		587848621CB5602C009E67A6 /* InteractiveAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimator.m; sourceTree = "<group>"; };
+		587848611CB5602C009E67A6 /* InteractiveAnimatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveAnimatorDelegate.h; sourceTree = "<group>"; };
+		587848621CB5602C009E67A6 /* InteractiveAnimatorDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveAnimatorDelegate.m; sourceTree = "<group>"; };
+		58C127491CB5FB8E001C99A5 /* SwipeAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeAnimator.h; sourceTree = "<group>"; };
+		58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +144,10 @@
 				5878485B1CB5590C009E67A6 /* ThirdViewController.xib */,
 				5878485E1CB55A42009E67A6 /* SwipeInteractiveTransition.h */,
 				5878485F1CB55A42009E67A6 /* SwipeInteractiveTransition.m */,
-				587848611CB5602C009E67A6 /* InteractiveAnimator.h */,
-				587848621CB5602C009E67A6 /* InteractiveAnimator.m */,
+				587848611CB5602C009E67A6 /* InteractiveAnimatorDelegate.h */,
+				587848621CB5602C009E67A6 /* InteractiveAnimatorDelegate.m */,
+				58C127491CB5FB8E001C99A5 /* SwipeAnimator.h */,
+				58C1274A1CB5FB8E001C99A5 /* SwipeAnimator.m */,
 			);
 			name = swipe;
 			sourceTree = "<group>";
@@ -226,9 +231,10 @@
 				587848481CB54C5F009E67A6 /* FirstViewController.m in Sources */,
 				587848511CB54D97009E67A6 /* SimplePresentedAnimator.m in Sources */,
 				587848571CB558F8009E67A6 /* SecondViewController.m in Sources */,
+				58C1274B1CB5FB8E001C99A5 /* SwipeAnimator.m in Sources */,
 				5878485C1CB5590C009E67A6 /* ThirdViewController.m in Sources */,
 				587848601CB55A42009E67A6 /* SwipeInteractiveTransition.m in Sources */,
-				587848631CB5602C009E67A6 /* InteractiveAnimator.m in Sources */,
+				587848631CB5602C009E67A6 /* InteractiveAnimatorDelegate.m in Sources */,
 				587848221CB25027009E67A6 /* main.m in Sources */,
 				5878484D1CB54C7D009E67A6 /* LastViewController.m in Sources */,
 				587848391CB25876009E67A6 /* CustomStoryboardSegue.m in Sources */,
@@ -378,6 +384,7 @@
 				587848361CB25028009E67A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import<UIKit/UIKit.h>
-@interface InteractiveAnimator : NSObject<UIViewControllerTransitioningDelegate>
+@interface InteractiveAnimatorDelegate : NSObject<UIViewControllerTransitioningDelegate>
 @property (nonatomic, strong) UIScreenEdgePanGestureRecognizer *gestureRecognizer;
 
 @property (nonatomic, readwrite) UIRectEdge targetEdge;

@@ -8,7 +8,7 @@
 
 #import "ThirdViewController.h"
 #import "SecondViewController.h"
-#import "InteractiveAnimator.h"
+#import "InteractiveAnimatorDelegate.h"
 
 @interface ThirdViewController ()
 
@@ -25,14 +25,12 @@
 }
 
 - (void)swipe:(UIScreenEdgePanGestureRecognizer *)gesture{
-    InteractiveAnimator * animator = self.transitioningDelegate;
-    animator.gestureRecognizer = gesture;
-    animator.targetEdge = UIRectEdgeLeft;
-    
-//    SecondViewController * third = [[SecondViewController alloc]init];
-//    third.transitioningDelegate = animator;
-//    third.modalPresentationStyle = UIModalPresentationFullScreen;
-    [self dismissViewControllerAnimated:YES completion:nil];
+    if(gesture.state == UIGestureRecognizerStateBegan){
+        InteractiveAnimatorDelegate * animator = self.transitioningDelegate;
+        animator.gestureRecognizer = gesture;
+        animator.targetEdge = UIRectEdgeLeft;
+        [self dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

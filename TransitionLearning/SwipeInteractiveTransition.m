@@ -78,8 +78,9 @@
 #pragma mark - 
 - (void)startInteractiveTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
     self.transitionContext = transitionContext;
-    self.initialLocationInContainerView = [self.gesture locationInView:transitionContext.containerView];
-    self.initialTranslationInContainerView = [self.gesture locationInView:transitionContext.containerView];
+//    self.initialLocationInContainerView = [self.gesture locationInView:transitionContext.containerView];
+//    self.initialTranslationInContainerView = [self.gesture locationInView:transitionContext.containerView];
+    [super startInteractiveTransition:transitionContext];
 }
 
 
